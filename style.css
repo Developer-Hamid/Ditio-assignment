@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arvo', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    border: 1px solid red;
+    border-radius: 30px;
+    width: 77%;
+    height: 310px;
+    padding: 50px;
+    margin-top: 15px;
+    margin-left: 130px;
+    margin-right: 50px;
+
+
+}
+
+.header-btn {
+    width: 120px;
+    height: 40px;
+    background-color: chocolate;
+    color: aqua;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.header-btn:hover {
+    background-color: white;
+    font-size: smaller;
+}
+
+
+.main-div {
+    margin-top: 30px;
+    margin: 20px;
+    padding: 30px;
+    background-color: blueviolet;
+    width: 100px;
+    border-radius: 20px;
+
+}
+
+button {
+    width: 100px;
+    height: 45px;
+    background-color: goldenrod;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 15px;
+
+}
+
+button:hover {
+    color: blue;
+    background-color: crimson;
+
+}
+
+.icon-div {
+    display: flex;
+}
+
+.icon-div p {
+    margin-left: 60px;
+}
+
+.prothom {
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 10px;
+    width: 310px;
+}
+
+.youtube-div {
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+
+}
+
+main {
+    display: flex;
+    margin: 30px;
+    justify-content: space-evenly;
+}
+
+footer {
+    border-radius: 30px;
+    width: 100%;
+    height: 330px;
+    padding: 50px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+
+    background-color: black;
+
+}
+
+.footer-head {
+    color: white;
+    text-align: center;
+}
+
+hr {
+    height: 10px;
+    color: aliceblue;
+    width: 70%;
+}
+
+.flex-item {
+    margin-top: 50px;
+    position: absolute;
+
+}
+
+.flex-item button {
+    color: white;
+    justify-content: space-between;
+    background-color: black;
+    margin: 50px;
+
+}
+
+.flex-item button:hover {
+    background-color: chartreuse;
+    font-size: smaller;
+}
